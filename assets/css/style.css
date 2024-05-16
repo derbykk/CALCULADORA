@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.container{
+    display: flex;
+    background-color: rgb(182, 211, 214);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.calculadora{
+    display: flex;
+    background-color: white;
+    width: 750px;
+    height: 400px;
+    border-radius: 29px;
+    align-items: first baseline;
+}
+ 
+.bill{
+    display: flex;
+    color: rgb(164, 164, 164);
+    margin: 15px;
+    padding: 2px;
+ 
+}
+ 
+input{
+    width: 285px;
+    height: 40px;
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    margin: 15px;
+    border: none;
+    border-radius: 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+ 
+.botao{
+    background-color: rgb(0, 143, 124);
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+}
+ 
+.diferent{
+    background-color: gray;
+    font-size: 15px;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 15px;
+}
+ 
+.selectTip{
+    color: rgb(164, 164, 164);
+    margin: 15px;
+}
+ 
+.nopeople{
+    margin: 15px;
+    color: gray;
+    justify-content: space-evenly;
+}
+ 
+.quadrado2{
+    background-color: rgb(0, 143, 124);
+    width: 349px;
+    height: 350px;
+    margin: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ 
+.linha02{
+    display: flex;
+    justify-content: flex-start;
+}
+ 
+.sla{
+    width: 150px;
+}
+ 
+.person{
+    margin-left: 35px;
+}
+ 
+.tip01{
+    width: 85px;
+    height: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 25px;
+    margin-left: 25px;
+    display: flex;
+}
+ 
+.barrinha{
+    width: 150px;
+    height: 60px;
+    margin: 20px;
+}
